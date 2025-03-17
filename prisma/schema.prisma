@@ -1,0 +1,20 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = "mysql://root:password@localhost:3306/nodejs_redis"
+}
+
+model User {
+  id        Int     @id @default(autoincrement())
+  name      String
+  email     String  
+  age       Int
+  location  String
+  createdAt DateTime @default(now())
+
+  // table name
+  @@map("users")
+}

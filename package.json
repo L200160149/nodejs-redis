@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-redis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L200160149/nodejs-redis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/L200160149/nodejs-redis/issues"
+  },
+  "homepage": "https://github.com/L200160149/nodejs-redis#readme",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "nodemon": "^3.1.9",
+    "prisma": "^6.5.0"
+  }
+}
